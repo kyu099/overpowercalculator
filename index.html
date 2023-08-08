@@ -8,9 +8,21 @@
     </head>
     <body>
         <h2>オーバーパワー計算機（仮）</h2>
-        <input type="number" id="prevscore" min="0">
-        <input type="number" id="afterscore" min="0">
+        更新前スコアを入力　<input type="number" id="prevscore" min="0" max="1010000">
+        <br>
+        更新後スコアを入力　<input type="number" id="afterscore" min="0" max="1010000">
+        <br>
+        <input type="checkbox" id="fccheck">新規FC
+        <br>
+        <input type="checkbox" id="ajcheck">新規AJ
+        <br>
+        <button id="calc">計算</button>
+        <br>
         <output id="out1"></output>
+        <br>
+        <br>
+        この計算機は更新前後のスコアがSS(1,000,000)以上の場合のみに対応しています。
+        <br>
         <br>
         © 2023 股濡れ徒歩部
     </body>
